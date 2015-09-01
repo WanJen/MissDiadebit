@@ -1,0 +1,122 @@
+body {
+    background: #1B1E24;
+}
+
+.demo-layout-transparent {
+
+}
+.mdl-layout__header {
+    background-color: #CDDC39 !important;
+}
+
+.mdl-layout-title {
+	width: 377px;
+	height: 48px;
+	background: url("../img/logo_03.png") center / cover;
+}
+
+.mdl-navigation__link {
+	color: #FFFFFF !important; 
+	font-size: 1.8em;
+}
+
+.banner {
+    height: 700px;
+    background: url("../img/home.jpg") center / cover;
+}
+
+.banner_text {
+    float: left;
+    margin-top: 300px;
+    margin-left: 200px;
+}
+
+.banner_text h1 { 
+    color: #FFFFFF;
+    font-size: 2.5em;
+}
+
+.banner_text p { 
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+
+.slider-space {
+    max-width: 1300px;
+    height: 600px;
+    padding-top: 100px;
+}
+
+.slider-grid {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+.card-space {
+    max-width: 1300px;
+    height: 700px;
+    padding-top: 60px;
+}
+
+.demo-card-square.mdl-card {
+  
+  height: 320px;
+}
+
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../img/logo_01.png') bottom right 15% no-repeat #46B6AC;
+}
+
+.googft-mapCanvas-title {
+    color: #FFFFFF;
+    display: block;
+    letter-spacing: 0.1em;
+    height: 70px;
+    width: 800px;
+    margin: 150px auto 0px auto;
+}
+
+#googft-mapCanvas {
+    height: 480px;
+    width: 800px;
+    margin: 20px auto 150px auto;
+}
+
+/*body {
+   
+}
+
+.header {
+    
+}
+
+.banner {
+    
+}
+
+@media (max-width: 479px) {
+
+}
+
+@media (min-width: 480px) and (max-width: 759px) {
+
+}
+
+@media (min-width: 760px) and (max-width: 839px) {
+    .banner--large {
+    height:600px;
+}
+}
+
+@media (min-width: 840px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 1025px) {
+
+}*/
